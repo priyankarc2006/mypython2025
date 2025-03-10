@@ -1,0 +1,4 @@
+program celsius to faren
+celsius =float(input("enter temp in celsius"))
+faren=(celsius*9/5)+32
+print("temperature in faren",faren)
