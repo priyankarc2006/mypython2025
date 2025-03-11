@@ -1,0 +1,7 @@
+def sum_of_digits(number):
+    return sum(int(digit) for digit
+in str(abs(number)))
+print("priyanka EC057")
+num=int(input("enter a number:"))
+print("sum of digits:",
+sum_of_digits(num))
