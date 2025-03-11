@@ -1,0 +1,5 @@
+def  return len(str(abs(number)))
+num= int(input("enter an integer"))
+print("number of digits:",
+count_digits(num))
+print("priyanka EC057")
