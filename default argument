@@ -1,0 +1,6 @@
+def greet(name, message="Hello"):
+    print(f"{message}, {name}!")
+
+# Function calls
+greet("Alice")          # Uses default message
+greet("Bob", "Hi")      # Overrides default message
