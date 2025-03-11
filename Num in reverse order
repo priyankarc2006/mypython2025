@@ -1,0 +1,8 @@
+N = int(input("enter a number:"))
+print("priyanka EC057")
+while N>=1:
+    print(N)
+    N -=1
+    
+
+    
