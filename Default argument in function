@@ -1,0 +1,6 @@
+def greet(name, greeting="Hello"):
+    """Greets the user with a specified or default greeting."""
+    return f"{greeting}, {name}!"
+print(greet("priya"))               v
+print(greet("Bob", "Good morning")) 
+print ("priyanka EC057"
