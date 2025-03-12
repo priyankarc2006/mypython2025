@@ -1,0 +1,9 @@
+import math
+num = int(input("Enter a number: "))
+square_root = math.sqrt(num)
+factorial = math.factorial(num)
+sine_value = math.sin(math.radians(num))  
+print("priyanka EC057")
+print(f"Square root of {num}: {square_root}")
+print(f"Factorial of {num}: {factorial}")
+print(f"Sine of {num} degrees: {sine_value}"
