@@ -1,0 +1,8 @@
+def sum_numbers(*args):
+    """Returns the sum of all arguments provided."""
+    return sum(args)
+
+
+result = sum_numbers(90, 80, 70, 60, 50)
+print(f"Sum of numbers: {result}")
+print ("priyanka EC057"
