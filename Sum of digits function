@@ -1,0 +1,11 @@
+def sum_of_digits(number):
+    """Returns the sum of the digits of a given number."""
+    return sum(int(digit) for digit in str(abs(number)))  
+num = 12345
+result = sum_of_digits(num)
+print(f"Sum of digits of {num}: {result}")
+
+num = -9876
+result = sum_of_digits(num)
+print(f"Sum of digits of {num}: {result}")
+print ("priyanka EC057"
