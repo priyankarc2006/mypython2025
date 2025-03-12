@@ -1,0 +1,12 @@
+import random
+
+def generate_random_number(start, end):
+    """Returns a random number between start and end (inclusive)."""
+    return random.randint(start, end)
+
+print ("priyanka EC057")
+start_range = 1
+end_range = 100
+random_number = generate_random_number(start_range, end_range)
+
+print(f"Random number between {start_range} and {end_range}: {random_number}"
