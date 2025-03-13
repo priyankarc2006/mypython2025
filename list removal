@@ -1,0 +1,6 @@
+
+fruits = ["apple", "banana", "cherry", "orange"]
+fruits.remove("banana")
+removed_item = fruits.pop(1)  
+print("Updated list:", fruits)
+print("Removed item using pop():", removed_item)
