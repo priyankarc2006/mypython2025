@@ -1,0 +1,10 @@
+
+students_marks = {
+    "Alice": [85, 90, 78],
+    "Bob": [72, 88, 95],
+    "Charlie": [90, 85, 92],
+    "David": [88, 76, 80],
+    "Emma": [95, 89, 91]
+}
+print(students_marks)
+print ("priyanka EC057")
