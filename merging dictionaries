@@ -1,0 +1,9 @@
+
+dict1 = {"name": "Alice", "age": 25}
+dict2 = {"city": "New York", "email": "alice@example.com"}
+dict1.update(dict2)
+
+
+merged_dict = {**dict1, **dict2}
+print("Merged Dictionary (using update):", dict1)
+print("Merged Dictionary (using unpacking):", merged_dict)
