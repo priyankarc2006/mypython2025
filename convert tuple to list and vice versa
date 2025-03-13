@@ -1,0 +1,15 @@
+
+my_tuple = ("apple", "banana", "cherry")
+
+
+tuple_to_list = list(my_tuple)
+
+
+my_list = ["apple", "banana", "cherry"]
+
+
+list_to_tuple = tuple(my_list)
+
+
+print("Tuple converted to list:", tuple_to_list)
+print("List converted to tuple:", list_to_tuple)
