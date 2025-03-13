@@ -1,0 +1,10 @@
+
+my_dict = {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York"
+}
+del my_dict["age"]
+removed_value = my_dict.pop("city", "Key not found")
+print("Updated Dictionary:", my_dict)
+print("Removed value:", removed_value)
