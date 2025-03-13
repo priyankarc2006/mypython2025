@@ -1,0 +1,8 @@
+
+my_tuple = ("apple", "banana", "cherry", "date", "elderberry")
+fruit1, fruit2, fruit3, fruit4, fruit5 = my_tuple
+print("First fruit:", fruit1)
+print("Second fruit:", fruit2)
+print("Third fruit:", fruit3)
+print("Fourth fruit:", fruit4)
+print("Fifth fruit:", fruit5)
