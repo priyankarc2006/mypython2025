@@ -1,0 +1,5 @@
+
+tuple1 = ("apple", "banana", "cherry")
+tuple2 = ("date", "elderberry", "fig")
+concatenated_tuple = tuple1 + tuple2
+print("Concatenated tuple:", concatenated_tuple)
