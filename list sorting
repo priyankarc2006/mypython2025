@@ -1,0 +1,6 @@
+
+numbers = [34, 12, 56, 23, 89, 7, 45]
+numbers_ascending = sorted(numbers)
+numbers_descending = sorted(numbers, reverse=True)
+print("List sorted in ascending order:", numbers_ascending)
+print("List sorted in descending order:", numbers_descending)
