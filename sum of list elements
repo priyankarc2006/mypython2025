@@ -1,0 +1,6 @@
+def sum_of_elements(numbers):
+    total = sum(numbers)  
+    return total
+numbers = [10, 20, 30, 40, 50]
+result = sum_of_elements(numbers)
+print("Sum of the list elements:", result)
