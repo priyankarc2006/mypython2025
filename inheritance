@@ -1,0 +1,10 @@
+class fruit:
+  def speak(self):
+    print("I am an fruit")
+
+class orange(fruit):
+   def speak(self):
+    print("I bark")
+
+orange=orange()
+orange.speak() 
