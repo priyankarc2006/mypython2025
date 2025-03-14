@@ -1,0 +1,9 @@
+class  priyanka:
+    def __init__(self):
+     self.pub = "ok"
+     self.__rajesh="not ok"
+    def radha_private(self):
+      print(self.__rajesh) 
+neha = priyanka()
+print(neha.pub)
+neha.radha_private()
